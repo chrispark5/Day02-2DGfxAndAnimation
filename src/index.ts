@@ -3,7 +3,8 @@
  * Please do not distribute beyond the CSci-4611 course
  */
 
-import { ExampleApp } from './ExampleApp'
-
-const app = new ExampleApp();
+import { ExampleApp } from "./ExampleApp";
+import { Day04 } from "./day04";
+const app = new Day04();
+// const app = new ExampleApp();
 app.start();
